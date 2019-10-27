@@ -1,4 +1,4 @@
-#ZAD 1
+ZAD 1
 Zadanie: klasa Maybe
 
 Zdefiniować klasę Maybe o następujących właściwościach.
@@ -103,7 +103,7 @@ Klasę Maybe przetestować na przykładzie następującej  klasy Main::
         */
 
 
-#ZAD 2
+ZAD 2
 
 Zadanie. Lambda-wyrażenia dla niefunkcyjnych interfejsów ?
 Spowodować, by w następującycm dalej programie,  po naciśnięciu klawisza myszki na przycisku b
