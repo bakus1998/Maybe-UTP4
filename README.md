@@ -1,6 +1,6 @@
-ZAD 1
-Zadanie: klasa Maybe
+# ZAD 1
 
+Zadanie: klasa Maybe
 Zdefiniować klasę Maybe o następujących właściwościach.
 
 Obiekty Maybe reprezentują kontenery, które mogą zawierać lub nie pojedynczą wartość. Motywacją do wprowadzenia takiej konstrukcji jest ułatwienie programowania w sytuacji, gdy zmienna może mieć wartość null, szczególnie kiedy wymagane jest jej dalsze bezpieczne przetwarzanie (na przykład za pomocą lambda-wyrażeń, oznaczających jakieś funkcje). Bezpieczne - to znaczy takie, które nie powoduje wyjątku NullPointerException.
@@ -103,22 +103,22 @@ Klasę Maybe przetestować na przykładzie następującej  klasy Main::
         */
 
 
-ZAD 2
+# ZAD 2
 
 Zadanie. Lambda-wyrażenia dla niefunkcyjnych interfejsów ?
 Spowodować, by w następującycm dalej programie,  po naciśnięciu klawisza myszki na przycisku b
 na konsoli zostało wypisane "ok". Pliku Main.java nie wolno modyfikować.
 
 
-  public static void main(String[] args) {
-    SwingUtilities.invokeLater( ()-> {
-        JFrame f = new JFrame();
-        JButton b = new JButton("Myszą ciśnij");
-        b.addMouseListener ( (MousePressListener) e -> System.out.println("ok") );
-        f.add(b);
-        f.pack();
-        f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        f.setVisible(true);
-      }
-    );
-  }
+          public static void main(String[] args) {
+            SwingUtilities.invokeLater( ()-> {
+                JFrame f = new JFrame();
+                JButton b = new JButton("Myszą ciśnij");
+                b.addMouseListener ( (MousePressListener) e -> System.out.println("ok") );
+                f.add(b);
+                f.pack();
+                f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                f.setVisible(true);
+              }
+            );
+          }
