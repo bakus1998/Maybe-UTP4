@@ -104,6 +104,7 @@ Klasę Maybe przetestować na przykładzie następującej  klasy Main::
 
 
 ZAD 2
+
 Zadanie. Lambda-wyrażenia dla niefunkcyjnych interfejsów ?
 Spowodować, by w następującycm dalej programie,  po naciśnięciu klawisza myszki na przycisku b
 na konsoli zostało wypisane "ok". Pliku Main.java nie wolno modyfikować.
