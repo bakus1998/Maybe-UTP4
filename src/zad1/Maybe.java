@@ -67,13 +67,15 @@ public class Maybe<T> {
     }
 
 
-    public Maybe<T> filter(Predicate<T> pred){
-        if(pred.test(t)){
+    public Maybe<T> filter(Predicate<T> pred) {
+
+        if (pred.test(t)&&isPresent()) {
             return this;
-        }else{
+        } else {
             return new Maybe<>();
         }
     }
+
 
 
     @Override
